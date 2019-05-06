@@ -70,7 +70,7 @@ var GmailScanner = new Lang.Class({
      * @returns {string} - the URL
      */
     getApiURL: function () {
-        return "https://mail.google.com/mail/feed/atom/inbox";
+        return "https://mail.google.com/mail/feed/atom/%5Esq_ig_i_personal";
     },
     /**
      * Extracts the link used to navigate to the email.
